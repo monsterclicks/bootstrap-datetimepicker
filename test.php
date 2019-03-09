@@ -15,6 +15,7 @@
         <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
 <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
     </div>
+    <input type="hidden" id="dtp_input1" value="" /><br/>
     <input type="submit" value="Submit" />
     </form>
 </div>
