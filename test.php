@@ -8,7 +8,7 @@
 
 <body>
   <div class="container">
-      <form action="result.php" class="form-horizontal"  role="form">
+      <form action="result.php" method="post" class="form-horizontal"  role="form">
           <fieldset>
               <legend>Test</legend>
               <div class="form-group">
