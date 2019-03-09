@@ -9,6 +9,7 @@
 <body>
 <div class="form-group">
 <form action="result.php" class="form-horizontal"  role="form">
+  <fieldset>
     <label for="dtp_input1" class="col-md-2 control-label">DateTime Picking</label>
     <div class="input-group date form_datetime col-md-5" data-date="1979-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
         <input class="form-control" size="16" name="datetime" type="text" value="" readonly>
@@ -17,6 +18,7 @@
     </div>
     <input type="hidden" id="dtp_input1" value="" /><br/>
     <input type="submit" value="Submit" />
+  </fieldset>
     </form>
 </div>
 <script type="text/javascript" src="./jquery/jquery-1.8.3.min.js" charset="UTF-8"></script>
